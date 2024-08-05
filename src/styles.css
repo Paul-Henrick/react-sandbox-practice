@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.divBg {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: aliceblue;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  width: 65%;
+}
+
+.exitBtn {
+  background-color: crimson;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  padding-top: 2px;
+}
+
+.divBg h1 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.divBg p {
+  margin-top: 0;
+  margin-left: 10px;
+  padding: 1px 10px 10px 10px;
+}
+
+button {
+  background-color: crimson;
+  color: aliceblue;
+  border-radius: 6px;
+  width: fit-content;
+  padding: 2px 5px 2px 5px;
+  justify-content: center;
+  border: none;
+}
